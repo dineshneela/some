@@ -3,7 +3,7 @@ const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
-var ball
+
 function preload()
 {
 	
@@ -18,7 +18,7 @@ function setup() {
 
 	//Create the Bodies Here.
 
-ball=createSprite(20,20,100,100)
+
 	Engine.run(engine);
   
 }
